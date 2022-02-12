@@ -986,7 +986,7 @@ const Home = () => {
             <div className="columns is-centered is-vcentered py-6 px-5">
               <div className="column is-6 has-text-centered">
                 <div className="title is-size-3-mobile is-2">
-                  LetsUpgrade Community
+                  Community
                 </div>
                 <div className="subtitle has-text-centered has-text-black">
                   A place to Network, hack your Motivation &amp; make you a part
@@ -1079,7 +1079,7 @@ const Home = () => {
                     <div className="columns is-gapless">
                       <div className="column">
                         <div className="is-size-4 is-size-4-mobile has-text-weight-semibold is-capitalized">
-                          Join LetsUpgrade Tribe of Achiever's
+                          Join Tribe of Achiever's
                         </div>
                         <div className="is-size-6 is-size-6-mobile">
                           A tribe of Achievers will help you grow professionally
@@ -1133,7 +1133,7 @@ const Home = () => {
             <div className="columns is-centered py-6 px-5">
               <div className="column is-6 has-text-centered">
                 <div className="title is-size-3-mobile is-2">
-                  LetsUpgrade Achievements
+                  Achievements
                 </div>
               </div>
             </div>
@@ -1169,7 +1169,7 @@ const Home = () => {
                         <div className="title is-3 is-size-4-mobile">
                           518K+
                           <div className="subtitle is-5 is-size-6-mobile">
-                            LetsUpgrade Members
+                            Members
                           </div>
                         </div>
                       </div>
@@ -1214,7 +1214,7 @@ const Home = () => {
                           300+ Projects
                           <div className="subtitle is-5 is-size-6-mobile">
                             
-                            Developed by LetsUpgraders
+                            
                           </div>
                         </div>
                       </div>
