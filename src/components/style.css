@@ -2368,7 +2368,8 @@ fieldset[disabled] .button {
     flex-grow: 1;
     margin: 0 auto;
     position: relative;
-    width: auto
+    width: auto;
+    max-width: 1140px;
 }
 
 .container.is-fluid {
@@ -2380,7 +2381,7 @@ fieldset[disabled] .button {
 
 @media screen and (min-width:1024px) {
     .container {
-        max-width: 960px
+        max-width: 1000px
     }
 }
 
@@ -23910,7 +23911,7 @@ fieldset[disabled] .button.is-primary.is-inverted.is-outlined {
 }
 
 .button.is-primary.is-light {
-    background-color: #fff3eb;
+    background-color: #ecad12;
     color: #c75000
 }
 
@@ -25168,7 +25169,7 @@ div.icon-text {
 }
 
 .notification.is-primary.is-light {
-    background-color: #fff3eb;
+    background-color: #ecad12;
     color: #c75000
 }
 
@@ -25763,7 +25764,7 @@ div.icon-text {
 }
 
 .tag:not(body).is-primary.is-light {
-    background-color: #fff3eb;
+    background-color: #ecad12;
     color: #c75000
 }
 
@@ -28138,7 +28139,7 @@ screen and (min-width:769px) {
 }
 
 .message.is-primary {
-    background-color: #fff3eb
+    background-color: #ecad12
 }
 
 .message.is-primary .message-header {
@@ -31948,7 +31949,7 @@ a.has-text-primary:hover {
 }
 
 .has-text-primary-light {
-    color: #fff3eb!important
+    color: #ecad12!important
 }
 
 a.has-text-primary-light:focus,
@@ -31957,7 +31958,7 @@ a.has-text-primary-light:hover {
 }
 
 .has-background-primary-light {
-    background-color: #fff3eb!important
+    background-color: #ecad12!important
 }
 
 .has-text-primary-dark {
@@ -40327,7 +40328,7 @@ screen and (min-width:769px) {
 }
 
 .b-tooltip.is-top.is-primary.is-light .tooltip-content:before {
-    border-top-color: #fff3eb
+    border-top-color: #ecad12
 }
 
 .b-tooltip.is-top.is-red .tooltip-content:before {
@@ -40398,7 +40399,7 @@ screen and (min-width:769px) {
 }
 
 .b-tooltip.is-right.is-primary.is-light .tooltip-content:before {
-    border-right-color: #fff3eb
+    border-right-color: #ecad12
 }
 
 .b-tooltip.is-right.is-red .tooltip-content:before {
@@ -40469,7 +40470,7 @@ screen and (min-width:769px) {
 }
 
 .b-tooltip.is-bottom.is-primary.is-light .tooltip-content:before {
-    border-bottom-color: #fff3eb
+    border-bottom-color: #ecad12
 }
 
 .b-tooltip.is-bottom.is-red .tooltip-content:before {
@@ -40540,7 +40541,7 @@ screen and (min-width:769px) {
 }
 
 .b-tooltip.is-left.is-primary.is-light .tooltip-content:before {
-    border-left-color: #fff3eb
+    border-left-color: #ecad12
 }
 
 .b-tooltip.is-left.is-red .tooltip-content:before {
@@ -40619,7 +40620,7 @@ screen and (min-width:769px) {
 }
 
 .b-tooltip.is-primary.is-light .tooltip-content {
-    background: #fff3eb;
+    background: #ecad12;
     color: #c75000
 }
 
@@ -41172,8 +41173,10 @@ input.darkModeLight {
     }
 }
 
+
+/**do min bro **/
+
 .body-graphics {
-    background-image: url(https://content-strapi-lms.s3.ap-south-1.amazonaws.com/icons/lines_f077faf53d.svg);
     background-position: 50%;
     background-size: auto;
     background-repeat: no-repeat

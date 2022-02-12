@@ -17,6 +17,20 @@ export default () => {
       slidesPerView={6}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}
+      breakpoints={{
+        320:{
+          slidesPerView: 1,
+          spaceBetween: 50,
+        }, 
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 20,  
+        },
+        1024: {
+          slidesPerView: 6,
+          spaceBetween: 50
+        }
+      }}
     >
       <SwiperSlide>
         <div

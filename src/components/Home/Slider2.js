@@ -20,6 +20,20 @@ export default () => {
         "delay": 3000,
         "disableOnInteraction": false
       }}
+      breakpoints={{
+        320:{
+          slidesPerView: 1,
+          spaceBetween: 50,
+        }, 
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 20,  
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 20
+        }
+      }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}
       className="p-5 pb-6"

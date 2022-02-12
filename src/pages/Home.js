@@ -2,6 +2,11 @@ import React from "react";
 import Slider from "../components/Home/Slider";
 import Slider2 from "../components/Home/Slider2";
 import Programs from "./Programs";
+import '../components/style.css'
+import zero1 from '../assets/zero1.png'
+import zero2 from '../assets/zero2.png'
+import zero3 from '../assets/zero3.png'
+import zero4 from '../assets/zero4.png'
 
 const Home = () => {
 
@@ -12,55 +17,14 @@ const Home = () => {
           <section className="center section" style={{height: "calc(100vh - 80px)"}}>
             <div className="columns is-centered hero-section">
               <div className="column is-10" style={{marginTop: "0rem !important"}}>
-                <div className="center mb-4">
-                  <img
-                    src="/_nuxt/img/india-emoji.8b21479.png"
-                    width="30"
-                    alt="India"
-                    srcSet=""
-                  />
-                </div>
-                <div className="center has-text-grey-dark is-size-5 blink mb-2">
-                  Live Community Members
-                </div>
-                <div
-                  id="counter"
-                  className="is-size-5 mb-1 center has-text-weight-bold center"
-                >
-                  <div className="counter-number has-background-success-grey has-text-white is-size-5">
-                    5
-                  </div>
-                  <div className="counter-number has-background-success-grey has-text-white is-size-5">
-                    3
-                  </div>
-                  <div className="counter-number has-background-success-grey has-text-white is-size-5">
-                    4
-                  </div>
-                  <div className="counter-number has-background-success-grey has-text-white is-size-5">
-                    3
-                  </div>
-                  <div className="counter-number has-background-success-grey has-text-white is-size-5">
-                    3
-                  </div>
-                  <div className="counter-number has-background-success-grey has-text-white is-size-5">
-                    5
-                  </div>
-                </div>
-                <br />
-                <h1 className="has-text-black is-size-8 is-size-1-mobile hero-title has-text-weight-bold has-text-centered">
-                  India’s Largest Tech Learning Community
+                <h3 className="textBlue is-size-2 is-size-1-mobile has-text-weight-bold has-text-centered" >India's 1<sup>st</sup></h3>
+                <h1 className="textBlue is-size-8 is-size-1-mobile hero-title has-text-weight-bold has-text-centered is-12">
+                  Gamified Learning Platform
                 </h1>
-                <div
-                  className="has-text-black has-text-weight-bold has-text-centered mt-5"
-                  style={{fontSize : "25px", lineHeight:"28px"}}
-                >
-                  <span>join</span> 5,34,335+
-                  <span> members and upgrade your self</span>
-                </div>
                 <div className="center mt-6">
                   <a href="#programs">
                     <div className="button is-rounded is-large is-black has-text-weight-medium has-text-centered">
-                      Enroll Now for ₹ 0
+                      Enroll Now for ₹ 249
                     </div>
                   </a>
                 </div>
@@ -72,10 +36,9 @@ const Home = () => {
           <div className="container is-centered">
             <div className="columns is-centered is-vcentered py-6 ">
               <div className="column is-6 has-text-centered">
-                <div className="title is-size-3-mobile is-2">Why LetsUpgrade?</div>
+                <div className="title is-size-3-mobile is-2">Why GenieGradz?</div>
                 <div className="subtitle has-text-centered has-text-grey">
-                  LetsUpgrade believes in helping you add value to yourself at
-                  the end of each day.
+                  <b>Geniegradz</b> is comitted to assisting you, in adding value to yourself by improvising your critical and logical thinking abilities, at the end of the day.
                 </div>
               </div>
             </div>
@@ -120,14 +83,14 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="column   ">
-                    <div className="card   is-shadowless  has-background-primary-light has-radius-full h-full is-flex is-justify-content-space-between is-flex-direction-column">
-                      <div className=" px-4  center has-background- has-text-centered">
+                  <div className="column">
+                    <div className="card is-shadowless has-background-primary-light has-radius-full h-full is-flex is-justify-content-space-between is-flex-direction-column">
+                      <div className=" px-4 center has-background- has-text-centered">
                         <p className=" has-text-weight-semibold   mt-4 is-size-4 is-size-5-tablet is-size-5-mobile has-text-black ">
                           <span>Popular Programs at fair price</span>
                         </p>
                       </div>
-                      <div className="  bottom has-background-">
+                      <div className="bottom has-background-">
                         <img
                           width="300"
                           src="https://lucdn.letsupgrade.net/business_3d_354_8a99636ccd.webp"
@@ -1037,7 +1000,7 @@ const Home = () => {
                 <div className="card body-graphics is-clipped is-shadowless has-background-primary-light has-text-black has-radius-full h-full is-flex is-flex-direction-column is-justify-content-space-between">
                   <div className="card-content py-6 px-5">
                     <div className="columns is-gapless">
-                      <div className="column">
+                      <div className="column"> 
                         <div className="is-size-4 is-size-4-mobile has-text-weight-semibold is-capitalized">
                           Motivate to learn next big SKILL
                         </div>
@@ -1052,7 +1015,7 @@ const Home = () => {
                   </div>
                   <div>
                     <img
-                      src="https://lucdn.letsupgrade.net/Lets_Upgrade_Community_lest_f8738f4f18.webp"
+                      src={zero1}
                       className="width-100"
                     />
                   </div>
@@ -1153,7 +1116,7 @@ const Home = () => {
               </div>
             </div>
           </section>
-          <Slider />
+          <Slider className="mx-2" />
           <div className="container">
             <div className="columns is-centered py-6 px-5">
               <div className="column is-6 has-text-centered">
