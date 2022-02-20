@@ -15,8 +15,6 @@ export default () => {
       modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
       spaceBetween={50}
       slidesPerView={6}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
       breakpoints={{
         320:{
           slidesPerView: 1,

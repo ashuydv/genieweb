@@ -41,7 +41,7 @@ const FAQs = () => {
   return (
     <div>
       <section className="section" style={{ marginTop: "-50px" }}>
-        <div className="container is-centered">
+        <div className="container is-fluid is-centered">
           <div className="card dark is-relative is-clipped is-shadowless has-background-link-light has-text-black has-radius-full w-full">
             <div className="card-content">
               <div className="columns is-centered is-vcentered py-6 pl-5">

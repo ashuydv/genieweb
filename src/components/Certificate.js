@@ -4,7 +4,7 @@ const Certificate = () => {
   return (
   <div>
       <section className="section" style={{marginTop: "-50px"}}>
-            <div className="container is-centered">
+            <div className="container is-fluid is-centered">
               <div className="card dark is-relative is-clipped is-shadowless has-background-black body-graphics has-text-black has-radius-full w-full">
                 <div className="card-content">
                   <div className="columns is-vcentered py-6 is-gapless pl-5">

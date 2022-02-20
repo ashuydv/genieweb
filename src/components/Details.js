@@ -6,7 +6,6 @@ const Details = () => {
     <div>
       <div>
         <div className="hero-top body-graphics">
-          
           <div className="stickyBottom has-background-primary shine is-hidden-tablet">
             <div className="columns is-mobile is-vcentered p-3">
               <div id="bottomctaBtn" className="column">

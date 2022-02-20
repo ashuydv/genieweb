@@ -4,7 +4,7 @@ const Refer = () => {
   return (
   <div>
       <section className="section" style={{marginTop: "-50px"}}>
-            <div className="container">
+            <div className="container is-fluid">
               <div className="card is-relative is-clipped is-shadowless has-background-info-light has-text-black has-radius-full w-auto">
                 <div className="card-content">
                   <div className="columns">

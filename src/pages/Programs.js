@@ -6,7 +6,7 @@ const Programs = () => {
   return (
     <div>
       <section id="programs" className="section">
-        <div className="container is-centered">
+        <div className="container is-fluid is-centered">
           <div className="card body-graphics  py-6  is-shadowless has-background-primary-light has-text-black has-radius-full w-full">
             <div className="has-text-centered  mb-0">
               <div className="title is-size-4-mobile is-3">
@@ -31,7 +31,6 @@ const Programs = () => {
               </div>
             </div>{" "}
             <div className="columns is-multiline p-6">
-              {console.log(programData)}
                 {programData.map((item) => {
                   return (
                     <div className="column is-3" key={item.id} >
@@ -121,9 +120,9 @@ const Programs = () => {
                                       className="h-5 w-5 has-text-success"
                                     >
                                       <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        stroke-width="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth="2"
                                         d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"
                                       ></path>
                                     </svg>

@@ -3,7 +3,7 @@ import React from 'react';
 const Accelerate = () => {
   return (<div>
       <section className="section">
-            <div className="container is-centered">
+            <div className="container is-fluid is-centered">
               <div className="card dark body-graphics has-background-black is-relative is-clipped is-shadowless has-text-black has-radius-full w-full">
                 <div className="card-content py-6 px-6">
                   <div className="columns is-centered is-vcentered py-6 pl-5">

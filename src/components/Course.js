@@ -11,7 +11,7 @@ const Course = () => {
   return (
     <div>
       <section className="section">
-        <div className="container is-centered">
+        <div className="container is-fluid is-centered">
           <div className="card dark is-relative is-clipped is-shadowless has-background-black has-text-black has-radius-full w-full">
             <div className="card-content">
               <div className="columns py-6 pl-5">

@@ -3,16 +3,14 @@ import React from 'react';
 const Community = () => {
   return (<div>
       <section className="section" style={{marginTop: "-50px"}}>
-            <div className="container is-centered">
+            <div className="container is-fluid is-centered">
               <div className="columns is-centered is-vcentered py-6 px-5">
                 <div className="column is-6 has-text-centered">
                   <div className="title is-size-3-mobile is-2">
                     LetsUpgrade Community
                   </div>
                   <div className="subtitle mt-1 has-text-centered has-text-black">
-                    A place to Network, hack your Motivation &amp; make you a
-                    part of like minded tech learning groups for constant growth
-                    of YOURS!
+                  A place to network, re-engineer, trigger your motivation, brainstorm and join like-minded digital learning groups for ongoing self-improvement!
                   </div>
                 </div>
               </div>
@@ -23,13 +21,10 @@ const Community = () => {
                       <div className="columns is-gapless">
                         <div className="column">
                           <div className="is-size-4 is-size-4-mobile has-text-weight-semibold is-capitalized">
-                            Motivate To Learn Next Big SKILL
+                          Motivate Yourself To Learn skills and start preparing yourself for the future
                           </div>
                           <div className="is-size-6 is-size-6-mobile">
-                            Every day some new technology makes headlines, and
-                            to constantly motivate you to learn and be the best,
-                            we have got your back by simplifying the learning
-                            curve all time.
+                          Every day, some new technology makes news, and to keep you motivated to study and be the best, we've got your back by lowering the learning curve all the time by providing the top-notch gamified learning programs which not only shape your academic but also process your overall personality
                           </div>
                         </div>
                       </div>
@@ -50,13 +45,10 @@ const Community = () => {
                       <div className="columns is-gapless">
                         <div className="column">
                           <div className="is-size-4 has-text-weight-semibold is-capitalized is-size-4-mobile">
-                            Learning &amp; Support
+                            Learning and Assistance
                           </div>
                           <div className="is-size-6 is-size-6-mobile">
-                            We enable members to ask questions, post answers,
-                            upvote, accept the right solution and help with all
-                            the support possible to make sure your learning is
-                            top-notch.
+                          We allow users to ask questions, publish answers, upvote, accept the best solution, and get all the aid they need to ensure their learning is top-notch.
                           </div>
                         </div>
                       </div>

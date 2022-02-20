@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer">
-        <div className="container">
+        <div className="container is-fluid">
           <div className="content">
             <div className=" column is-11 is-size-7-mobile">
               <div className="columns is-centered">

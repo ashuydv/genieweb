@@ -4,7 +4,7 @@ const Stats = () => {
   return (
     <div>
       <section className="section" style={{ marginTop: "-50px" }}>
-        <div className="container is-centered">
+        <div className="container is-fluid is-centered">
           <div className="card is-relative is-clipped is-shadowless has-background-primary-light has-text-black has-radius-full">
             <div className="card-content">
               <div className="columns is-multiline is-left pt-6 pb-4 pl-4">

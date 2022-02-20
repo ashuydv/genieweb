@@ -4,7 +4,7 @@ const Curriculum = () => {
   return (
     <div>
       <section className="section" style={{ marginTop: "-50px" }}>
-        <div className="container is-centered">
+        <div className="container is-fluid is-centered">
           <div className="card dark is-relative is-clipped is-shadowless has-background-info-light has-text-black has-radius-full w-full">
             <div className="card-content">
               <div className="columns is-vcentered pt-6 is-gapless pl-0 pl-5 py-6">

@@ -3,7 +3,7 @@ import React from 'react';
 const Reviews = () => {
   return (<div>
       <section className="section" style={{marginTop: "-50px"}}>
-            <div className="container is-centered">
+            <div className="container is-fluid is-centered">
               <div className="card body-graphics is-relative is-clipped is-shadowless has-background-black has-text-black has-radius-full w-full">
                 <div className="card-content pr-5">
                   <div className="columns is-vcentered py-6 is-gapless pl-5">

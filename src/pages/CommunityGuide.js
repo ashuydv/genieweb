@@ -5,7 +5,7 @@ const CommunityGuide = () => {
   return (
     <div>
       <div className="section">
-        <div className="container is-centered">
+        <div className="container is-fluid is-centered">
           <div className="card dark is-relative is-clipped is-shadowless has-background-light has-radius-full w-full">
             <div className="card-content">
               <div className="columns py-6 is-vcentered is-gapless pl-5">
